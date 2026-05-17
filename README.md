@@ -16,10 +16,10 @@
 * **Dosya Adı ve Satır Aralığı:** game/game.py: (4-7 satirlara kod eklendi)
 * **Hatanın Sebebi:** Kodun calismasi icin gerekli olan classlar import edilmemis (4 tane) onlari importlayarak koda eklenmeler yaptim
 * **Nasıl Çözdünüz:** Gerekli importlar yazdim:
-from game.character import Character
-from game.enemy import Enemy
-from game.battle import Battle
-from game.data import CHAPTERS
+* from game.character import Character
+* from game.enemy import Enemy
+* from game.battle import Battle
+* from game.data import CHAPTERS
 
 ---
 
